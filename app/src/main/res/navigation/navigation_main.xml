@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/abonelikMenusu">
+
+    <fragment
+        android:id="@+id/abonelikMenusu"
+        android:name="com.msy.enerjisaabonelik.ui.fragment.SubscriptionMenu"
+        android:label="fragment_abonelik_menusu"
+        tools:layout="@layout/fragment_subscription_menu" />
+    <fragment
+        android:id="@+id/customerForm"
+        android:name="com.msy.enerjisaabonelik.ui.fragment.CustomerForm"
+        android:label="fragment_customer_form"
+        tools:layout="@layout/fragment_customer_form" />
+</navigation>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.fragment.SubscriptionMenu">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/subscription_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+                <Button
+                    android:id="@+id/subscription_toolbar_back"
+                    style="@style/Widget.Material3.Button.IconButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/yellow"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:padding="10dp"
+                    app:icon="@drawable/ic_right_arrow"
+                    app:iconTint="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/hind_medium"
+                    android:text="@string/randevu"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </com.google.android.material.appbar.MaterialToolbar>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/yellow" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/subscriptionExplanationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="start"
+            android:paddingStart="50dp"
+            android:text="@string/subscription_explanation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <LinearLayout
+            android:id="@+id/subscriptionMenuChoiceLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/subscriptionExplanationText">
+
+            <Button
+                android:id="@+id/subscriptionProcessButtonOne"
+                style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/hind_medium"
+                android:gravity="start"
+                android:padding="25dp"
+                android:text=""
+                android:textColor="@color/black"
+                app:cornerRadius="2dp"
+                app:icon="@drawable/ic_person"
+                app:iconPadding="10dp"
+                app:strokeColor="@color/buttonBorder" />
+
+            <Button
+                android:id="@+id/subscriptionProcessButtonTwo"
+                style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/hind_medium"
+                android:gravity="start"
+                android:padding="25dp"
+                android:text=""
+                android:textColor="@color/black"
+                app:cornerRadius="2dp"
+                app:icon="@drawable/ic_application"
+                app:iconPadding="10dp"
+                app:strokeColor="@color/buttonBorder" />
+
+            <Button
+                android:id="@+id/subscriptionProcessButtonThree"
+                style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/hind_medium"
+                android:gravity="start"
+                android:padding="25dp"
+                android:text=""
+                android:textColor="@color/black"
+                app:cornerRadius="2dp"
+                app:icon="@drawable/ic_evacuation"
+                app:iconPadding="10dp"
+                app:strokeColor="@color/buttonBorder" />
+
+            <Button
+                android:id="@+id/subscriptionProcessButtonFour"
+                style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/hind_medium"
+                android:gravity="start"
+                android:padding="25dp"
+                android:text=""
+                android:textColor="@color/black"
+                app:cornerRadius="2dp"
+                app:icon="@drawable/ic_transport"
+                app:iconPadding="10dp"
+                app:strokeColor="@color/buttonBorder" />
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

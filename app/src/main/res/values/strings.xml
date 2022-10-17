@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EnerjiSA Abonelik</string>
+    <string name="subscription_explanation">Size en yakın hizmet noktalarımızdan aşağıdaki işlemler için randevu alabilir , sıra beklemeden işlemlerinizi kolayca gerçekleştirebilirsiniz.</string>
+    <string name="randevu">Randevu</string>
+    <string name="yeni_abonelik">Yeni Abonelik</string>
+    <string name="mulkiyet_bilgileri">Mülkiyet Bilgileri</string>
+    <string name="abonelik_tipi">Abonelik Tipi</string>
+    <string name="mulk_sahibi_bilgileri">Mülk Sahibi Bilgileri</string>
+    <string name="ozel_kisi">Özel Kişi</string>
+    <string name="tuzel_kisi">Tüzel Kişi</string>
+    <string name="ad">Adı</string>
+    <string name="soyad">Soyadı</string>
+    <string name="tc_kimlik_numarasi">T.C. Kimlik Numarası</string>
+    <string name="guvence_bedeli">Güvence Bedeli</string>
+    <string name="guncel_guvence_bedeli_tutari">Güncel Güvence Bedeli Tutarı</string>
+    <string name="guvence_bedeli_info">Güvence bedeli tutarı, eşit iki taksit halinde ilk ve ikinci faturanıza yansıtılacaktır.</string>
+    <string name="guncel_guvence_bedeli_info">Görevli tedarik şirketi, kullanım yerinin değişmesi ve/veya perakende satış sözleşmesinin sona ermesi veya sözleşmenin feshi halinde, tüketicinin elektrik enerjisi tüketim bedelini ödememesi ihtimaline karşılık olarak, borcuna mahsup etmek üzere güvence bedeli talep eder. Aboneliğinizi sonlandırmak isteyip, tahliye işlemi yapmanız durumunda içeride bulunan güvence bedeliniz, elektriğinizin kesilmesinden sonra oluşacak son faturanız ve varsa vadesi geçmiş borçlarınızla mahsuplaşma güncellenerek tarafınıza iade edilecektir.</string>
+</resources>
