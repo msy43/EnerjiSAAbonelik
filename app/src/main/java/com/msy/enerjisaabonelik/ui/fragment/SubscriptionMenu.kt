@@ -20,6 +20,7 @@ class SubscriptionMenu : Fragment() {
 
     private var _binding: FragmentSubscriptionMenuBinding? = null
     private val binding get() = _binding!!
+
     private lateinit var viewModel: SubscriptionMenuViewModel
 
     private val subscriptionMenuChoiceLayout: LinearLayout by lazy { binding.subscriptionMenuChoiceLayout }

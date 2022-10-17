@@ -1,6 +1,6 @@
 package com.msy.enerjisaabonelik.di.models
 
-data class Result (
+data class Result(
     var isSuccess: Boolean?,
     var message: Any?,
     var explanation: Any?,
